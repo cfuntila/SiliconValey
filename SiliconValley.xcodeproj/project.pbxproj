@@ -13,6 +13,7 @@
 		AFB7486C2409D4CF00648511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB7486A2409D4CF00648511 /* Main.storyboard */; };
 		AFB7486E2409D4D000648511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB7486D2409D4D000648511 /* Assets.xcassets */; };
 		AFB748712409D4D000648511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB7486F2409D4D000648511 /* LaunchScreen.storyboard */; };
+		AFB748792409D4EE00648511 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AFB748782409D4EE00648511 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AFB7486D2409D4D000648511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFB748702409D4D000648511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFB748722409D4D000648511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB748782409D4EE00648511 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				AFB748682409D4CF00648511 /* ViewController.swift */,
 				AFB7486A2409D4CF00648511 /* Main.storyboard */,
 				AFB7486D2409D4D000648511 /* Assets.xcassets */,
+				AFB748782409D4EE00648511 /* Inceptionv3.mlmodel */,
 				AFB7486F2409D4D000648511 /* LaunchScreen.storyboard */,
 				AFB748722409D4D000648511 /* Info.plist */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB748692409D4CF00648511 /* ViewController.swift in Sources */,
+				AFB748792409D4EE00648511 /* Inceptionv3.mlmodel in Sources */,
 				AFB748652409D4CF00648511 /* AppDelegate.swift in Sources */,
 				AFB748672409D4CF00648511 /* SceneDelegate.swift in Sources */,
 			);
